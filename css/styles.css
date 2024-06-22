@@ -65,6 +65,13 @@
   }
 }
 
+.trail { /* className for the trail elements */
+  position: absolute;
+  height: 6px; width: 6px;
+  border-radius: 3px;
+  background: teal;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
